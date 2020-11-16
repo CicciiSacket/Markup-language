@@ -1,0 +1,341 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    padding: .7em 2.1em;
+    color: #5c6ac4;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #eaeaea;
+    border-radius: 1.6em;
+    border-color: transparent;
+    transition: all ease-in-out .1s;
+    background-color: rgb(92, 106, 196,0.1);
+}
+
+.two{
+    background-color: rgb(172, 131, 211);
+    color: #ffffff;
+    padding: .7em 2.1em;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #eaeaea;
+    border-radius: 1.6em;
+    border-color: transparent;
+    transition: all ease-in-out .1s;
+}
+.spacer{
+    background-color: rgb(180, 180, 180);
+    height: 1px;
+    width: 100%;
+    margin-top:5rem;
+}
+.monstr :hover{
+    transition: ease-out;
+
+}
+.clviola :hover{
+    background-color: blueviolet;
+    color: white;
+    transform: skewY(4deg);
+}
+.clrose :hover{
+    background-color: rgb(172, 131, 211);
+    color: white;
+    transform: skewY(4deg);
+}
+.clred :hover{
+    background-color: rgb(243, 81, 81);
+    color: white;
+    transform: skewY(4deg);
+}
+.clsg :hover{
+    background-color: aquamarine;
+    color: white;
+    transform: skewY(4deg);
+}
+.coltx{
+    color: #6673c7;
+}
+.here{
+    background-color: #7a77d0;
+    width: 100%;
+}
+.wga{
+    background-color: rgb(41, 39, 39);
+    width: 100%;
+}
+.more{
+    background-color: whitesmoke;
+    color: black;
+    padding: .7em 2.1em;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #eaeaea;
+    border-radius: 1.6em;
+    border-color: transparent;
+    transition: all ease-in-out .1s;
+}
+.spacend{
+    background-color: whitesmoke;
+    height: 1px;
+    width: 100%;
+    margin-top:2rem;
+}
+.txt{
+    color: rgb(138, 134, 134);
+}
+.lc{
+    font-family: 'Bangers', cursive;
+}
+#couch i {
+    background-color: rgba(87,82,208,.1);
+    color: #5752d0;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+}
+#couch1{
+    background-color: rgba(87,82,208,.1);
+    color: #df87f5;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+}
+#couch2{
+    background-color: rgba(252, 151, 151, 0.1);
+    color: rgb(243, 73, 73);
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+}
+#coach3{
+    background-color: rgba(173, 224, 131, 0.1);
+    color: rgb(203, 241, 146);
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+}
+#coach4{
+    background-color: rgba(43, 168, 199, 0.1);
+    color: cyan;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+}
+#coach5{
+    background-color: rgba(105, 252, 69, 0.1);
+    color: greenyellow;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    line-height: 3;
+    text-align: center;
+}
+
+@media screen and (min-width:375px){
+    .shit{
+        margin-left: 2rem;
+    }
+    .sch{
+        width: 290px;
+        height:400px;
+        padding: 15px;
+        margin-left:1rem;
+    }   
+    .vd1{
+        width: 290px;
+        height:290px;
+    }
+    .odr{
+        width: 290px;
+        height: 225.16px;
+    }
+    .img1{
+        width: 70.53px;
+        height: 15.06;
+
+    }
+    .img2{
+        width: 70.53px;
+        height: 22.03px;
+
+    }
+    .img3{
+        width: 77.16px;
+        height: 12.66px;
+
+    }
+    .img4{
+        width: 36.77px;
+        height: 24.71px;
+    }
+    .dimension{
+        width: 343px;
+        height: 300px;
+    }
+    .sopra{
+        margin-top: 50px;
+    }
+    .lungh{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .odr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .qend{
+        margin-top: 3rem;
+    }
+    .complet{
+        width: 375px;
+    }
+    .img22{
+        width: 117px;
+        height: 37px;
+    }
+    .img42{
+        width: 61px;
+        height: 41px;
+    }
+    .full2{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    .vd1{
+        width: 300px;
+        height: 400px;
+    }
+    .sch{
+        width: 690px;
+        height: 400px;
+    }
+    .img2{
+        width: 117px;
+        height: 37px;
+    }
+    .img4{
+        width: 61px;
+        height: 41px;
+    }
+    .img1{
+        width: 117px;
+        height: 25px;
+    }
+    .img3{
+        width: 128px;
+        height: 21px;
+    }
+    .odr{
+        width: 586px;
+        height: 455px;
+        margin-left: 2rem;
+    }
+    .moment{
+        margin-left: 1rem ;
+    }
+    .sopra{
+        margin-top: 4rem;
+    }
+    .secondo{
+        font-size: larger;
+    }
+    .resp{
+        height: 312px;
+    }
+    .odr{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .gruppo3{
+        width: 570px;
+        height: 392px;
+    }
+    .qend{
+        width: 348px;
+        height: 274px;
+        margin-left: 13rem;
+    }
+    .full2{
+        margin-left: 14rem;
+    }
+}
+
+@media screen and (min-width:1024px){
+    .odr{
+        width: 450px;
+        height: 349.4px;
+        margin-top: 100px;
+        
+    }
+    .logo{
+        margin-right: 15rem;
+    }
+    .img1{
+        width: 117px;
+        height: 25px;
+    }
+    .sch{
+        width: 730px;
+        height: 400px;
+        margin-left: 6rem;
+    }
+   
+    .moment{
+        margin-left: 4rem ;
+    }
+    .sopra{
+        width: 480px;
+        height: 558.29px;
+        margin-top: 5rem;
+    }
+    .evolv{
+        order: 2;
+    }
+    .evolvers{
+        margin-left: 10rem;
+    }
+    .gruppo3{
+        width: 288px;
+        height: 198.06px;
+    }
+    .qend{
+        margin-left: 8rem;
+    }
+
+}
+@media screen and (min-width:1440px){
+    .evolvers{
+        margin-left: 35rem;
+    }
+    .sch{
+        width: 730px;
+        height: 400px;
+        margin-left: 11rem;
+    }
+    .vd1{
+        width: 634.95px;
+        height: 400px;
+    }
+    .full{
+        visibility: hidden;
+    }
+    
+}
